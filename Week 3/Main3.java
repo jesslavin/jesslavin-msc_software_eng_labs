@@ -12,7 +12,7 @@ public class Main3 {
         Date callumDOB = new Date(9, 4, 1997);
         Date ceitidhDOB = new Date(13, 5, 1998);
         Date lyraDOB = new Date (30, 6, 1987);
-        Date baoDOB = new Date (30, 9, 1997);
+        Date jordanDOB = new Date (29, 10, 1990);
 
         // Marketing department - create Boss Jess with 1 worker Iain
         Boss jess = new Boss("Jess", jessDOB);
@@ -21,8 +21,8 @@ public class Main3 {
         Boss lyra = new Boss("Lyra", lyraDOB);
         Worker callum = new Worker("Callum", callumDOB, lyra);
         Worker ceitidh = new Worker("Ceitidh", ceitidhDOB, lyra);
-        // HR department - create Boss Bao with no workers
-        Boss bao = new Boss("Bao", baoDOB);
+        // HR department - create Boss Jordan with no workers
+        Boss jordan = new Boss("Jordan", jordanDOB);
 
         System.out.println(" ");
         System.out.println("--------------------------------------------------------------------------");
@@ -35,7 +35,7 @@ public class Main3 {
         listOfPeople.add(lyra);
         listOfPeople.add(callum);
         listOfPeople.add(ceitidh);
-        listOfPeople.add(bao);
+        listOfPeople.add(jordan);
 
         System.out.println(" ");
         System.out.println("--------------------------------------------------------------------------");
